@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Plan de Estudios - Lic. en Cs. Matemáticas UNSL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lic. en Ciencias Matemáticas - UNSL</h1>
+  
+  <div class="grid-container">
+    <!-- Primer Año -->
+    <div class="anio">Primer Año</div>
+    <button class="materia" onclick="verDetalle('Inglés')">Inglés</button>
+    <button class="materia" onclick="verDetalle('Cálculo I')">Cálculo I</button>
+    <button class="materia" onclick="verDetalle('Álgebra I')">Álgebra I</button>
+    <button class="materia" onclick="verDetalle('Matemática y Computación I')">Matemática y Computación I</button>
+    <button class="materia" onclick="verDetalle('Matemática Discreta')">Matemática Discreta</button>
+    <button class="materia" onclick="verDetalle('Álgebra II')">Álgebra II</button>
+    <button class="materia" onclick="verDetalle('Seminario')">Seminario</button>
+
+    <!-- Segundo Año -->
+    <div class="anio">Segundo Año</div>
+    <button class="materia" onclick="verDetalle('Cálculo II')">Cálculo II</button>
+    <button class="materia" onclick="verDetalle('Fundamentos')">Fundamentos</button>
+    <button class="materia" onclick="verDetalle('Probabilidad y Estadística')">Probabilidad y Estadística</button>
+    <button class="materia" onclick="verDetalle('Cálculo III')">Cálculo III</button>
+    <button class="materia" onclick="verDetalle('Cálculo Numérico')">Cálculo Numérico</button>
+    <button class="materia" onclick="verDetalle('Modelos Matemáticos')">Modelos Matemáticos</button>
+
+    <!-- Tercer Año -->
+    <div class="anio">Tercer Año</div>
+    <button class="materia" onclick="verDetalle('Matemática y Computación II')">Matemática y Computación II</button>
+    <button class="materia" onclick="verDetalle('Álgebra III')">Álgebra III</button>
+    <button class="materia" onclick="verDetalle('Cálculo Avanzado I')">Cálculo Avanzado I</button>
+    <button class="materia" onclick="verDetalle('Cálculo Avanzado II')">Cálculo Avanzado II</button>
+    <button class="materia" onclick="verDetalle('Álgebra IV')">Álgebra IV</button>
+
+    <!-- Cuarto Año -->
+    <div class="anio">Cuarto Año</div>
+    <button class="materia" onclick="verDetalle('Variable Compleja y Análisis de Fourier')">Variable Compleja y Análisis de Fourier</button>
+    <button class="materia" onclick="verDetalle('Medida e Integración')">Medida e Integración</button>
+    <button class="materia" onclick="verDetalle('Materia Optativa I')">Materia Optativa I</button>
+    <button class="materia" onclick="verDetalle('Ecuaciones de Física-Matemática')">Ecuaciones de Física-Matemática</button>
+    <button class="materia" onclick="verDetalle('Geometría Diferencial')">Geometría Diferencial</button>
+    <button class="materia" onclick="verDetalle('Materia Optativa II')">Materia Optativa II</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
